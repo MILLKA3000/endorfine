@@ -115,6 +115,9 @@ Social
 .social-menu-widget a[href*="trello.com"]::before {
 	content: '\f181';
 }
+.social-menu-widget a[href*="vk.com"]::before {
+    content: "\f189";
+}
 /*--------------------------------------------------------------
 Navigation
 --------------------------------------------------------------*/
@@ -3092,4 +3095,22 @@ Panels
 
 .background-about-our{
     background-image:url(http://demo.athemes.com/sydney/wp-content/uploads/sites/35/2015/03/urban-438393_1280.jpg);
+}
+
+#sidebar-footer .menu-item.menu-item-type-custom{
+    margin: 0 15px;
+    float: left;
+}
+#mainnav ul li a:hover{
+    background-color: #f15523;
+    color:white!important;
+}
+#mainnav ul li a{
+    padding: 10px;
+}
+#mainnav ul li{
+    padding: 0!important;
+}
+.panel-row-style{
+    padding: 50px !important;
 }

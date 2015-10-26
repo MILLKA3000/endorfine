@@ -5,7 +5,6 @@
  * @package Sydney
  */
 
-
 /* Defaults */
 add_theme_support( 'siteorigin-panels', array( 
 	'margin-bottom' => 0,
